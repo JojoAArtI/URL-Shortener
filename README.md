@@ -4,7 +4,7 @@ A sleek and functional **client-side URL shortener** built with pure HTML, CSS, 
 
 ## Demo
 
-Try the live demo [here](##YOUR_DEPLOYED_URL_HERE##)
+Try the live demo [here](##https://jojoaarti.github.io/URL-Shortener/##)
 
 ---
 
