@@ -33,7 +33,7 @@ The shortened URL is fetched by creating a unique callback function for each req
 ## Installation & Deployment
 
 1. Clone the repository:
-git clone https://github.com/yourusername/url-shortener.git
+git clone https://github.com/JojoAArtI/URL-Shortener.git
 
 text
 2. Navigate to the project directory:
@@ -87,11 +87,6 @@ Contributions are welcome! Feel free to open issues or submit pull requests for 
 
 ---
 
-## License
-
-This project is released under the [MIT License](LICENSE).
-
----
 
 ## Acknowledgments
 
