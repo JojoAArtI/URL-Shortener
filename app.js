@@ -3,7 +3,7 @@ class URLShortener {
         this.urlInput = document.getElementById('url-input');
         this.shortenBtn = document.getElementById('shorten-btn');
         this.btnText = document.querySelector('.btn-text');
-        this.btnSpinner = document.querySelector('.btn-spinner');
+        this.btnSpinner = document.querySelector('.btn-spinner'); 
         this.errorSection = document.getElementById('error-section');
         this.errorMessage = document.getElementById('error-message');
         this.errorText = document.querySelector('.error-text');
