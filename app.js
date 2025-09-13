@@ -5,7 +5,7 @@ class URLShortener {
         this.btnText = document.querySelector('.btn-text');
         this.btnSpinner = document.querySelector('.btn-spinner'); 
         this.errorSection = document.getElementById('error-section');
-        this.errorMessage = document.getElementById('error-message');
+        this.errorMessage = document.getElementById('error-message'); 
         this.errorText = document.querySelector('.error-text');
         this.successSection = document.getElementById('success-section');
         this.shortenedUrlInput = document.getElementById('shortened-url');
