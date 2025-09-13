@@ -1,6 +1,6 @@
 # URL Shortener
 
-A sleek and functional **client-side URL shortener** built with pure HTML, CSS, and JavaScript. This single-page web app allows users to paste long URLs and get shortened links instantly using the [is.gd](https://is.gd) URL shortening API—without the need for any backend or server. 
+A sleek and functional **client-side URL shortener** built with pure HTML, CSS, and JavaScript. This single-page web app allows users to paste long URLs and get shortened links instantly using the [is.gd](https://is.gd) URL shortening API—without the need for any backend or server.  
 
 ## Demo
 
