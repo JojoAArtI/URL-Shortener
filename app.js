@@ -1,7 +1,7 @@
 class URLShortener {
     constructor() {
         this.urlInput = document.getElementById('url-input');
-        this.shortenBtn = document.getElementById('shorten-btn');
+        this.shortenBtn = document.getElementById('shorten-btn'); 
         this.btnText = document.querySelector('.btn-text');
         this.btnSpinner = document.querySelector('.btn-spinner'); 
         this.errorSection = document.getElementById('error-section');
