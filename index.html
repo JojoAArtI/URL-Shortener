@@ -13,13 +13,11 @@
 <body>
     <div class="container">
         <main class="app-card">
-            <!-- Header Section -->
             <header class="header">
                 <h1 class="title">URL Shortener</h1>
                 <p class="subtitle">Transform long URLs into short, shareable links instantly</p>
             </header>
 
-            <!-- Input Section -->
             <section class="input-section">
                 <div class="form-group">
                     <label for="url-input" class="sr-only">Enter your long URL</label>
@@ -48,7 +46,6 @@
                 <div id="button-help" class="sr-only">Click to generate a shortened version of your URL</div>
             </section>
 
-            <!-- Error Section -->
             <section class="error-section" id="error-section" role="alert" aria-live="polite">
                 <div class="error-message hidden" id="error-message">
                     <svg class="error-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -60,7 +57,6 @@
                 </div>
             </section>
 
-            <!-- Success Section -->
             <section class="success-section hidden" id="success-section" aria-live="polite">
                 <div class="success-message">
                     <svg class="success-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -91,7 +87,6 @@
                     <div id="copy-help" class="sr-only">Copy the shortened URL to your clipboard</div>
                 </div>
 
-                <!-- Copy Success Feedback -->
                 <div class="copy-success hidden" id="copy-success" role="status" aria-live="polite">
                     <svg class="success-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="20,6 9,17 4,12"></polyline>
@@ -105,7 +100,6 @@
             </section>
         </main>
 
-        <!-- Footer -->
         <footer class="footer">
             <div class="footer-content">
                 <p class="footer-text">
@@ -124,14 +118,9 @@
         </footer>
     </div>
     <script type="module">
-  // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.2.1/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
     apiKey: "AIzaSyDmsrn1YlJPakR-E4B2Qg-XviJ9qOKCm3I",
     authDomain: "url-shortener-48967.firebaseapp.com",
@@ -142,7 +131,6 @@
     measurementId: "G-CM63BYXTHG"
   };
 
-  // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
 </script>
