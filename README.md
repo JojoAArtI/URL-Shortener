@@ -10,7 +10,7 @@ Try the live demo [here](https://jojoaarti.github.io/URL-Shortener/)
 
 
 
-## How It Works
+## How It Works 
 
 This project uses the [is.gd API](https://is.gd/developers.php) for URL shortening, which supports JSONP—a technique that allows the app to perform cross-origin requests by dynamically injecting script tags.
 
