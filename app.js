@@ -6,13 +6,14 @@ class URLShortener {
         this.btnSpinner = document.querySelector('.btn-spinner'); 
         this.errorSection = document.getElementById('error-section');
         this.errorMessage = document.getElementById('error-message'); 
-        this.errorText = document.querySelector('.error-text');
-        this.successSection = document.getElementById('success-section');
+                this.successSection = document.getElementById('success-section');
         this.shortenedUrlInput = document.getElementById('shortened-url');
         this.copyBtn = document.getElementById('copy-btn');
         this.copyText = document.querySelector('.copy-text');
         this.copySuccess = document.getElementById('copy-success');
         this.newUrlBtn = document.getElementById('new-url-btn');
+        this.errorText = document.querySelector('.error-text');
+
 
         this.isLoading = false;
         this.currentCallbackName = null;
