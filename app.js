@@ -15,6 +15,7 @@ class URLShortener {
         this.errorText = document.querySelector('.error-text');
 
 
+        
         this.isLoading = false;
         this.currentCallbackName = null;
 
