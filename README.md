@@ -11,7 +11,7 @@ Try the live demo [here](https://jojoaarti.github.io/URL-Shortener/)
 
 
 ## How It Works 
-
+ 
 This project uses the [is.gd API](https://is.gd/developers.php) for URL shortening, which supports JSONP—a technique that allows the app to perform cross-origin requests by dynamically injecting script tags.
 
 The shortened URL is fetched by creating a unique callback function for each request, which processes the JSONP response and updates the UI accordingly.
